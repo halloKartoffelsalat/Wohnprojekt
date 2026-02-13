@@ -10,7 +10,7 @@ body {
   }
 
 header {
-  background: red; /*#356f3a;*/
+  background: #356f3a;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 header a {
@@ -103,6 +103,7 @@ section {
   padding: 1.5rem;
   border-radius: 10px;
   margin-top: 2rem;
+
 
 
 
