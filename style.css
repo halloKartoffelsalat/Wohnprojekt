@@ -11,7 +11,6 @@ body {
 
 header {
   background: red; /*#356f3a;*/
-  padding 26px 0;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 header a {
@@ -30,6 +29,7 @@ header nav {
   display: flex;
   justify-content: center;
   gap: 2rem;
+  padding: 26px 0;
 }
 
 main {
@@ -103,6 +103,7 @@ section {
   padding: 1.5rem;
   border-radius: 10px;
   margin-top: 2rem;
+
 
 
 
