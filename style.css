@@ -59,13 +59,15 @@ main {
 
 .media {
   display: flex;
-  gap: 20px; /* Abstand */
+  gap: 24px; /* Abstand */
   align-items: flex-start;
 }
 
 .media img {
-  width: 250px; /* feste Bildbreite */
+  width: 220px; /* feste Bildbreite */
   height: auto;
+  border-radius: 8px;
+  object-fit: cover;
 }
 
 .media .text {
@@ -91,6 +93,7 @@ section {
     padding: 0 320px;
 }
 */
+
 
 
 
