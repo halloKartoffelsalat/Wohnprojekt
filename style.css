@@ -29,7 +29,7 @@ header a:hover {
 header nav {
   display: flex;
   justify-content: center;
-  gap: 2.8rem;
+  gap: 4rem;
 }
 /*
 nav {
@@ -116,6 +116,7 @@ section {
   padding: 1.5rem;
   border-radius: 10px;
   margin-top: 2rem;
+
 
 
 
