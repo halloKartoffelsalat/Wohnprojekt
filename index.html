@@ -8,16 +8,14 @@
 </head>
 
 <body>
-<header>
-  <nav>
-    <a href="index.html">Start</a>
-    <a href="projekt.html">Projekt</a>
-    <a href="haus.html">Haus</a>
-    <a href="leitsaetze.html">Leitsätze</a>
-    <a href="termine.html">Termine</a>
-    <a href="kontakt.html">Kontakt</a>
-  </nav>
-</header>
+<!-- zentraler Aufruf von header.html -->
+<div id="header"></div>
+  
+  <script>
+    fetch("header.html")
+    .then(r => r.text())
+    .then(t => document.getElementById("header").innerHTML = t);
+  </script>
 
 <main class="hero">
   <h1>Gemeinsam wohnen. Solidarisch leben.</h1>
@@ -34,3 +32,4 @@
 </body>
 
 </html>
+
