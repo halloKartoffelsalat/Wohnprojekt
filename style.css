@@ -3,12 +3,12 @@ body {
   margin: 0;
   line-height: 1.6;
   color: #222;
-  background-color: green; 
+  background-color: white; 
   }
 
 header {
   border-bottom: 1px solid #ddd;
-  background-color: white;
+  background-color: green;
 }
 
 nav {
@@ -87,6 +87,7 @@ section {
     padding: 0 320px;
 }
 */
+
 
 
 
