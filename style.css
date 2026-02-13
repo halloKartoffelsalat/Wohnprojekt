@@ -7,6 +7,7 @@ body {
 
 header {
   border-bottom: 1px solid #ddd;
+  background-color: green;
 }
 
 nav {
@@ -40,4 +41,5 @@ main {
   color: white;
   text-decoration: none;
   border-radius: 6px;
+
 }
