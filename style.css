@@ -25,6 +25,11 @@ header a {
 header a:hover {
   opacity: 0.75;
 }
+
+header nav {
+  display: flex;
+  justify-content: center;
+}
 /*
 nav {
   max-width: 1000px;
@@ -97,19 +102,20 @@ section {
 }
 
 /* Definition Container-Layout: Im Moment durch die main:max-width festgelegt, Aufruf in html über <main class="container"> statt <main>: Theoretisch best practice*/
-/*
+
 .container {
     max-width: 900px;
     margin: 0 auto;
-    padding: 0 320px;
+    padding: 0 24px;
 }
-*/
+
 
 .card {
   background: #fafafa;
   padding: 1.5rem;
   border-radius: 10px;
   margin-top: 2rem;
+
 
 
 
