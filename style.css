@@ -16,7 +16,7 @@ header {
   box-shadow: none;
 }
 header a {
-  color: #2e7d32;
+  color: white; /*#2e7d32*/;
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: 500;
@@ -114,6 +114,7 @@ section {
 ::dselection {
   background: #c8f2d6;
 }
+
 
 
 
