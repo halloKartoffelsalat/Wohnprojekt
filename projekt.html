@@ -8,7 +8,15 @@
 </head>
 
 <body>
-
+  <!-- zentraler Aufruf von header.html>
+<div id="header"></div>
+  
+  <script>
+    fetch("header.html")
+    .then(r => r.text())
+    .then(t => document.getElementById("header").innerHTML = t);
+  </script>
+  <!--
 <header>
   <nav>
     <a href="index.html">Start</a>
@@ -19,7 +27,7 @@
     <a href="kontakt.html">Kontakt</a>
   </nav>
 </header>
-
+-->
 <main>
   <h1>Unser Wohnprojekt</h1>
 
@@ -55,3 +63,4 @@
 </body>
 
 </html>
+
