@@ -115,8 +115,9 @@ section {
   background: #c8f2d6;
 }
 
-
-
-
-
-
+footer {
+  max-width: 800px;
+  margin: 4rem auto;
+  padding: 1rem 1.2rem;
+  color: #555;
+}
