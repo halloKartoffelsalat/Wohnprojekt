@@ -41,5 +41,11 @@ main {
   color: white;
   text-decoration: none;
   border-radius: 6px;
+  }
 
+.content-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
+
