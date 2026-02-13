@@ -29,6 +29,7 @@ header a:hover {
 header nav {
   display: flex;
   justify-content: center;
+  gap: 2rem;
 }
 /*
 nav {
@@ -115,6 +116,7 @@ section {
   padding: 1.5rem;
   border-radius: 10px;
   margin-top: 2rem;
+
 
 
 
