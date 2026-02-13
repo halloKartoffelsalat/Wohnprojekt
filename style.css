@@ -49,5 +49,22 @@ main {
   display: block;
 }
 
+.media {
+  display: flex;
+  gap: 20px; /* Abstand */
+  align-items: flex-start;
+}
+
+.media img {
+  width: 250px; /* feste Bildbreite */
+  height: auto;
+}
+
+.media .text {
+  flex: 1; /* Text nimmt Restbreite */
+}
+
+
+
 
 
