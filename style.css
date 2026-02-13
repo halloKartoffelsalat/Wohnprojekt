@@ -119,5 +119,7 @@ footer {
   max-width: 800px;
   margin: 4rem auto;
   padding: 1rem 1.2rem;
-  color: #555;
+  color: #666;
+  text-align: center;
 }
+
