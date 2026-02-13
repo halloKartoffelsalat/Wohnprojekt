@@ -12,11 +12,11 @@ body {
 header {
   position: sticky;
   top: 0;
-  background: #8fd3b6;
+  background: #f4faf6; /*#8fd3b6;*/
   box-shadow: none;
 }
 header a {
-  color: #2f6f4f; /*#2e7d32*/
+  color: #2e6e4f; /*#2e7d32*/
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: 500;
@@ -111,4 +111,7 @@ section {
   border-radius: 10px;
   margin-top: 2rem;
 
+::dselection {
+  background: #c8f2d6;
+}
 
