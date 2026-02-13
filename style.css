@@ -27,6 +27,9 @@ main {
   max-width: 800px;
   margin: 4rem auto;
   padding: 0 1rem;
+  background: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08)
 }
 
 .hero {
@@ -75,7 +78,7 @@ section {
     margin: 60px 0;
 }
 
-/* Definition Container-Layout: Im Moment durch die main:max-width festgelegt*/
+/* Definition Container-Layout: Im Moment durch die main:max-width festgelegt, Aufruf in html über <main class="container"> statt <main>: Theoretisch best practice*/
 /*
 .container {
     max-width: 900px;
@@ -83,6 +86,7 @@ section {
     padding: 0 320px;
 }
 */
+
 
 
 
