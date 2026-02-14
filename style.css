@@ -130,7 +130,9 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 0;
+  height: 50px;
+  padding: 0;
+}
 
   .logo img {
     height: 100px;
@@ -145,6 +147,7 @@ footer {
     margin: 0;
     padding: 0;
   }
+
 
 
 
