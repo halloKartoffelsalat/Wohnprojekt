@@ -126,6 +126,12 @@ footer {
   padding: 1rem 2rem;
 }
 
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+
   .logo img {
     height: 100px;
     width: auto;
@@ -139,6 +145,7 @@ footer {
     margin: 0;
     padding: 0;
   }
+
 
 
 
