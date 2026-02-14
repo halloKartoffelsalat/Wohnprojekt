@@ -127,7 +127,7 @@ footer {
 }
 
   .logo img {
-    height: 50px;
+    height: 100px;
     width: auto;
     display: block;
   }
@@ -139,6 +139,7 @@ footer {
     margin: 0;
     padding: 0;
   }
+
 
 
 
