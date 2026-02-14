@@ -30,7 +30,7 @@ header a:hover {
 header nav {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 1.4rem;
   padding: 18px 0;
 }
 
@@ -145,6 +145,7 @@ footer {
     margin: 0;
     padding: 0;
   }
+
 
 
 
