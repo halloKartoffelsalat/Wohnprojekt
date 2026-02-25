@@ -14,6 +14,7 @@ header {
   top: 0;
   background: #5fcf80; /*#8fd3b6;*/
   box-shadow: none;
+  margin: 0;
 }
 header a {
   color: white; /*#2e7d32*/;
@@ -160,6 +161,7 @@ footer {
   object-fit: cover;
   display: block;
 }
+
 
 
 
