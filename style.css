@@ -12,7 +12,7 @@ body {
 header {
   position: sticky;
   top: 0;
-  background: #5fcf80; /*#8fd3b6;*/
+  background: none;/*#5fcf80;*/
   box-shadow: none;
   margin: 0;
 }
@@ -166,6 +166,7 @@ footer {
   object-fit: cover;
   display: block;
 }
+
 
 
 
