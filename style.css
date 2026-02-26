@@ -126,6 +126,10 @@ footer {
   align-items: center;
   justify-content: space-between;
   padding: 0rem 2rem;
+  position: sticky; /* sticky oben */
+  top: 0;           /* Abstand von oben */
+  z-index: 100;     /* bleibt über anderem Content */
+  background: white; /* verhindert Durchscheinen von Inhalten */
 }
 
 .header-inner {
@@ -166,6 +170,7 @@ footer {
   object-fit: cover;
   display: block;
 }
+
 
 
 
