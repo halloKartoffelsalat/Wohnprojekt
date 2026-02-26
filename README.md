@@ -10,7 +10,8 @@ x Logogröße anpassen
 - Bilder zu Bewohnern rund
 - Logo als Link auf index setzen
 - Header farblich erneuern
-- hovern beim Button einstellen 
+- hovern beim Button einstellen
+- DGSVO: google calendar, google fonts etc. (google fonts siehe Hinweis Chatgpt: FIX runterladen und einbinden, dann geht keine IP in die USA; zum Kalender: Einbinden und Kontakt selbstständig über Mailadresse ist auf jeden Fall besser- trotzdem DGSVO beachten/ gesondert eintragen!!!!)
 
 
 25.02.:
