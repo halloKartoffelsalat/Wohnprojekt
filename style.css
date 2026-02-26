@@ -122,23 +122,23 @@ footer {
   }
 
 .site-header {
+  position: sticky;    /* Sticky aktiv */
+  top: 0;              /* Oben am Viewport */
+  z-index: 100;        /* Über anderen Inhalten */
+  background: white;   /* Hintergrund, damit Inhalte nicht durchscheinen */
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0rem 2rem;
-  position: sticky; /* sticky oben */
-  top: 0;           /* Abstand von oben */
-  z-index: 100;     /* bleibt über anderem Content */
-  background: white; /* verhindert Durchscheinen von Inhalten */
-  height: 80px; /* Höhe explizit setzen */
+  height: 80px;        /* Höhe für Sticky */
+  padding: 0 2rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* optional: Schatten für Sichtbarkeit */
 }
 
 .header-inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 80px;
-  padding: 0;
+  width: 100%; /* Volle Breite im Container */
 }
 
 .logo {
@@ -171,6 +171,7 @@ footer {
   object-fit: cover;
   display: block;
 }
+
 
 
 
