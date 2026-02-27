@@ -12,10 +12,21 @@
   <!-- zentraler Aufruf von header.html -->
 <div id="header"></div>
   
-  <script>
+ <script>
     fetch("header.html")
     .then(r => r.text())
-    .then(t => document.getElementById("header").innerHTML = t);
+    .then(t => {
+      document.getElementById("header").innerHTML = t;
+    
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('.main-nav');
+    
+    if (burger && nav) {
+       burger.addEventListener('click', () => {
+       nav.classList.toggle('active');
+      });
+    }  
+    });
   </script>
 
   <section class="banner">
@@ -78,6 +89,7 @@
 </body>
 
 </html>
+
 
 
 
