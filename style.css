@@ -168,6 +168,61 @@ footer {
   display: block;
 }
 
+/*===========================
+Burger Menü
+============================*/
+.burger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.burger span {
+  width: 26px;
+  height: 3px;
+  background: #5fcf80;
+  display: block;
+}
+
+/* mobile Anpassung */
+@media (max-width: 768px) {
+  
+  /*burger sichtbar*/
+  .burger {
+    display: flex;
+  }
+
+  /*Naviagtion verstecken*/
+  .main-nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #2e7d32; /*optional dunkler Hintergrund*/
+    display: none;
+    z-index: 1000;
+  }
+
+  /*horizontales Flex von header nav überschreiben*/
+  header nav {
+    display: block;
+  }
+
+  .main-nav ul {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem 1.2rem;
+  }
+  .main-nav.active {
+    display: block;
+  }
+}
+
+  
+  
 
 
 
